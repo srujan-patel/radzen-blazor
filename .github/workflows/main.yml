@@ -27,8 +27,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Update CycloneDX
-        run: dotnet tool install --global CycloneDX
+        run: dotnet tool update --global CycloneDX
 
       # Runs a set of commands using the runners shell
       - name: Generate SBOM
-        run: dotnet CycloneDX Radzen.Blazor/Radzen.Blazor.csproj -o ./bom.xml
+        run: dotnet CycloneDX Radzen.sln

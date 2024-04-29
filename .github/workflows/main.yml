@@ -31,4 +31,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Generate SBOM
-        run: dotnet CycloneDX Radzen.sln -o ./bom.xml
+        run: dotnet CycloneDX radzen-blazor/Radzen.sln -o radzen-blazor/bom.xml

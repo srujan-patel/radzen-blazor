@@ -35,3 +35,11 @@ jobs:
         with:
           name: bom.xml
           path: ./SBOM Files/
+
+      - name: Commit files
+        run: |
+          git add.
+          git commit -m "Added CycloneDX SBOM"
+
+        
+        

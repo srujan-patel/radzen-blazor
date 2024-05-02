@@ -40,8 +40,9 @@ jobs:
         run: |
           git config --global user.email "srujanp98@gmail.com"
           git config --global user.name "Srujan Patel"
-          git add .
+          git add bom.xml
           git commit -m "Added CycloneDX SBOM"
+          git push
 
         
         

@@ -38,7 +38,7 @@ jobs:
 
       - name: Commit files
         run: |
-          git add.
+          git add .
           git commit -m "Added CycloneDX SBOM"
 
         

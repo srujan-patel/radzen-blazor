@@ -34,7 +34,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: bom.xml
-          path: ./SBOM Files/
+          path: ./
 
       - name: Commit files
         run: |
